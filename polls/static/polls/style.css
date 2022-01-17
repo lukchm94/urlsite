@@ -1,15 +1,27 @@
+#header {
+	margin-bottom: 20px;
+	background-color: #006400;
+    color: white;
+    text-align: center;
+    font-family: Courier;
+    font-weight: bold;
+    text-decoration: none;
+    font-color: white;
+}
+
 li a {
-    margin: 20px;
     color: green;
     font-size: 20px;
-    spacing: 20;
+    background-color: white;
+    padding: 10px 20px;
 }
 
 li:hover a {
     color: black;
-    background-color: yellow;
+    background-color: #d0f0c0;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
+    padding: 16px 32px;
 }
 
 body {

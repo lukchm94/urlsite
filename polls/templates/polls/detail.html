@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/votes.css' %}">
     <meta charset="UTF-8">
     <title>Voting page!</title>
 </head>
@@ -14,8 +16,9 @@
             <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
             <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
         {% endfor %}
-    </fieldset>
+    </fieldset><br>
     <input type="submit" value="Vote">
     </form>
+    <br><br><a href="{% url 'polls:index' %}">Home</a>
 </body>
 </html>

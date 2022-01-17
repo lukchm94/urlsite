@@ -24,12 +24,22 @@
     width: 99%;
 }
 #polls {
-	width: 50%;
+	width: 49%;
 	float: left;
 	background-color: #B1D8B7;
 	text-align: center;
     border-radius: 18px;
     padding-bottom: 20px;
+    margin: 4px;
+}
+#invoice {
+    width: 49%;
+	float: right;
+	background-color: #B1D8B7;
+	text-align: center;
+    border-radius: 18px;
+    padding-bottom: 20px;
+    margin: 4px;
 }
 #questions {
 	background-color: #B1D8B7;
@@ -46,6 +56,27 @@
     background-color: #006400
     color: white;
 }
+#inv_header, #invoices {
+    font-size: 20px;
+    padding: 2px 4px;
+    margin: 4px 8px;
+    margin-bottom: 40px;
+    font-family: Courier;
+    border-radius: 18px;
+    border: solid;
+    background-color: #006400
+    color: white;
+}
+#all_invoices {
+    font-family: Courier;
+    border-radius: 18px;
+    border: solid;
+    background-color: #006400
+    color: white;
+}
+#all_q {
+    margin: 20px;
+}
 ul {
     list-style-type: none;
     margin: 8px;
@@ -55,7 +86,7 @@ ol {
     margin: 8px;
     list-style-position: outside;
 }
-li a {
+li a, #inv_li {
     display: block;
     color: green;
     font-size: 20px;
@@ -123,4 +154,15 @@ a:hover {
     background-color: green;
     padding: 16px 32px;
     border-radius: 18px;
+}
+h1 {
+    display: block;
+    color: green;
+    font-size: 20px;
+    background-color: white;
+    padding: 8px 20px;
+    text-align: center;
+    font-family: Courier;
+    border-radius: 18px;
+    margin-bottom: 4px;
 }

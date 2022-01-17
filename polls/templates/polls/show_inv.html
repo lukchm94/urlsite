@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style_new.css' %}">
+    <meta charset="UTF-8">
+    <title>All invoices</title>
+</head>
+<body>
+    <div id="header">
+        <fieldset id="top">
+            <p>Django Invoice List</p>
+        </fieldset>
+	</div>
+    {% if invoices %}
+    <div id="invoices">
+        <h1 id="all_invoices">List of all invoices created</h1>
+    <ol>
+    {% for inv in invoices %}
+        <li id="inv_li">{{ inv.inv_date }} -- {{ inv.inv_desc }} -- {{ inv.inv_amount }} -- {{ inv.pm_date }}</li>
+    {% endfor %}
+    </ol>
+{% else %}
+    <p>No invoices have been created.</p>
+{% endif %}
+    </div><br>
+    <br><br><a id="home" href="{% url 'polls:index' %}">Home</a><br><br>
+    <div id="footer">
+        <fieldset id="foot">
+            <p>Created by github.com/lukchm94</p>
+        </fieldset>
+	</div>
+</body>
+</html>

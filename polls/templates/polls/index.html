@@ -20,11 +20,18 @@
         <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
     {% endfor %}
     </ul>
+        <br><a id="all_q" href="{% url 'polls:questions' %}">Show all questions</a>
 {% else %}
     <p>No polls are available.</p>
 {% endif %}
-        <br><a id="all_q" href="{% url 'polls:questions' %}">Show all questions</a>
-    </div><br>
+    </div>
+    <div id="invoice">
+        <h1 id="inv_header">Invoice App</h1>
+
+        <a id="create_invoice" href="{% url 'polls:show_inv' %}">Show all invoices</a><br>
+
+    </div>
+    <br>
     <div id="footer">
         <fieldset id="foot">
             <p>Created by github.com/lukchm94</p>

@@ -1,29 +1,24 @@
 body {
     background: black;
 }
-
 fieldset {
     width: 50%;
 }
-
 label {
     color: white;
     padding: 10px;
     font-size: 20px;
     margin: 4px 2px;
 }
-
 label:hover {
     color: #d0f0c0;
     padding: 10px;
     font-size: 32px;
     margin: 4px 2px;
 }
-
 legend h1 {
     color: white;
 }
-
 input {
   background-color: #4CAF50;
   border: none;
@@ -34,7 +29,6 @@ input {
   margin: 4px 2px;
   cursor: pointer;
 }
-
 input:hover {
   background-color: #006400;
   border: none;
@@ -46,11 +40,9 @@ input:hover {
   margin: 4px 2px;
   cursor: pointer;
 }
-
 p {
     color: white;
 }
-
 a {
     margin: 4px 2px;
     color: black;
@@ -58,7 +50,6 @@ a {
     background-color: #d8e4bc;
     padding: 16px 32px;
 }
-
 a:hover {
     margin: 4px 2px;
     color: white;

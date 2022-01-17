@@ -9,11 +9,30 @@
     font-color: white;
 }
 
+#footer {
+	margin-bottom: 20px;
+	background-color: #006400;
+    color: white;
+    text-align: center;
+    font-family: Courier;
+    font-weight: bold;
+    text-decoration: none;
+    font-color: white;
+}
+
+#polls {
+	width: 50%;
+	float: left;
+}
+
 li a {
+    display: block;
     color: green;
     font-size: 20px;
     background-color: white;
     padding: 10px 20px;
+    text-align: center;
+    font-family: Courier;
 }
 
 li:hover a {
@@ -22,6 +41,8 @@ li:hover a {
     font-weight: bold;
     font-size: 40px;
     padding: 16px 32px;
+    text-align: center;
+    font-family: Courier;
 }
 
 body {

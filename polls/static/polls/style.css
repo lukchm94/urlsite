@@ -35,6 +35,17 @@ li a {
     font-family: Courier;
 }
 
+h1 {
+    font-size: 20px;
+    padding: 2px 4px;
+    margin: 4px 8px;
+    font-family: Courier;
+    border-radius: 18px;
+    border: solid;
+    background-color: #006400;
+    color: white;
+}
+
 li:hover a {
     color: black;
     background-color: #d0f0c0;
